@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Agency - Start Bootstrap Theme</title>
+    <title>alu0100406122@github.io</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -33,7 +33,89 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function()
+{
+    $("#stw").click(function()
+    {
+    	$("#practicas").show();
+    	$("#asignatura_seleccionada").html("Sistemas y tecnologías web");
+    	location.href="#practicas";
+   		$("#mensaje_aviso").css("display","none");
+   		$("#practica1").fadeIn();
+    });
+    $("#gco").click(function()
+    {
+    	$("#practicas").show();
+    	$("#asignatura_seleccionada").html("Gestión del conocimiento en las organizaciones");
+    	location.href="#practicas";
+    	$("#practica1").css("display","none");
+    	$("#mensaje_aviso").fadeIn();
+ 		$("#mensaje_aviso").html("No se han realizado prácticas");
 
+
+    });
+    $("#tio").click(function()
+    {
+    	$("#practicas").show();
+    	$("#asignatura_seleccionada").html("Tecnologías de la información para las organizaciones");
+    	location.href="#practicas";
+    	$("#practica1").css("display","none");
+    	$("#mensaje_aviso").fadeIn();
+		$("#mensaje_aviso").html("No se han realizado prácticas");
+    	$("#resumen_practica").css("display","none");
+    });
+    $("#lpp").click(function()
+    {
+    	$("#practicas").show();
+    	$("#asignatura_seleccionada").html("Lenguajes y paradigmas de programación");
+    	location.href="#practicas";
+    	$("#practica1").css("display","none");
+    	$("#mensaje_aviso").fadeIn();
+		$("#mensaje_aviso").html("No se han realizado prácticas");
+    });
+    $("#ia").click(function()
+    {
+    	$("#practicas").show();
+    	$("#asignatura_seleccionada").html("Inteligencia artificial");
+      	location.href="#practicas";
+      	$("#practica1").css("display","none");
+      	$("#mensaje_aviso").fadeIn();
+		$("#mensaje_aviso").html("No se han realizado prácticas");
+    });
+
+    $("#practica1").click(function()
+    {
+    	
+    	$("#resumen_practica").fadeIn();
+    });
+});    
+</script>
+<style>
+	#practicas
+	{
+		display:none;
+	}
+	#practica1:hover
+	{
+		color:black;
+		cursor:pointer;
+	}
+    #stw,#gco,#tio,#lpp,#ia,#practica1
+    {
+        color:grey;
+    }
+    #stw:hover,#gco:hover,#tio:hover,#lpp:hover,#ia:hover
+    {
+        color:black;
+        cursor:pointer;
+    }
+    #mensaje_aviso
+    {
+    	display:none;
+    }
+</style>
 </head>
 
 <body id="page-top" class="index">
@@ -49,7 +131,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">ULL</a>
+                <a class="navbar-brand page-scroll" href="#page-top">Universidad de La Laguna</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -106,7 +188,7 @@
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-graduation-cap fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Sistemas y tecnologías web</h4>
+                    <h4 id="stw" class="service-heading">Sistemas y tecnologías web</h4>
                     <p class="text-muted">.</p>
                 </div>
                 <div class="col-md-4">
@@ -114,16 +196,16 @@
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Tecnologías de la información para las organizaciones</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <h4 id="tio" class="service-heading">Tecnologías de la información para las organizaciones</h4>
+                    <p class="text-muted"><!--Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.--></p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-book fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Gestión del conocimiento en las organizaciones</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <h4 id="gco" class="service-heading">Gestión del conocimiento en las organizaciones</h4>
+                    <p class="text-muted"></p>
                 </div>
                 <div class="row text-center">
                 	<div class="col-md-4">
@@ -131,8 +213,8 @@
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-university fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Lenguajes y paradigmas de programación</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <h4 id="lpp" class="service-heading">Lenguajes y paradigmas de programación</h4>
+                    <p class="text-muted"></p>
                 	</div>
                 	<div class="col-md-4">
             
@@ -142,13 +224,50 @@
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-cogs fa-stack-1x fa-inverse"></i>
                     </span> 
-                    <h4 class="service-heading">Inteligencia artificial</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <h4 id="ia" class="service-heading">Inteligencia artificial</h4>
+                    <p class="text-muted"></p>
                 	</div>	
             	</div>
         </div>
     </section>
 
+<!--Prácticas-->
+    <!-- Services Section -->
+    <section id="practicas">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Prácticas</h2>
+                    <h2 class="section-subheading text-muted"><span id="asignatura_seleccionada"></span></h2>
+                    <br>
+                </div>
+            </div>
+            <div class="row text-center">
+            	<div class="col-md-12">
+            		<br>
+					<p id="mensaje_aviso" style="font-size:6;" class="pull-left"></p>
+            	</div>
+                <div class="col-md-2">
+					<h4 id="practica1">Práctica 1</h4>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-8"></div>
+                <div id="resumen_practica" style="display:none">
+                	<div class="col-md-4">
+                		<div id="imagen_resumen_practica" style="margin-left=15px;">
+                			<a href="" target="blank"><img src="tutorial_tareas_iniciales.png" width="450px" height="300px" alt="No puede encontrarse la practica" title="Practica"></a>
+						</div>
+					</div>
+					<div class="col-md-1"></div>
+					<div class="col-md-3">
+						<div id="info_resumen_practica">
+							Tutorial escrito en Markdown sobre la instalación de distintas herramientas como Atom, nodejs o git. 
+						</div>
+					</div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Portfolio Grid Section -->
     <!--section id="portfolio" class="bg-light-gray">
         <div class="container">
@@ -257,22 +376,54 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-12">
+                <!--<div class="col-lg-12">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-11">
                     <ul class="timeline">
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/" alt="">
+                                <img  class="img-circle img-responsive" src="img/DSC_0514.JPG" alt="No puede encontrarse la imagen">
                             </div>
+
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h4>Curso 2015-2016</h4>
+                                    <br>
                                     <h4 class="subheading">Algunos datos sobre mí</h4>
                                 </div>
                                 <div class="timeline-body">
                                     <p class="text-muted">Hola! Mi nombre es Maria Nayra Rodríguez Pérez. En esta página podemos acceder mis asignaturas en este curso y a los proyectos que he realizado.</p>
                                 </div>
+                                <br>
+                                <div class="timeline-heading">
+                                    <h4 class="subheading">Contacta conmigo a través de:</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <!--i class="fa fa-envelope-o fa-2x wow bounceIn" data-wow-delay=".1s"></i-->
+                                    <!--<p class="text-muted">alu0100406122@ull.edu.es</p>
+                                </div>
                             </div>
-                        </li>
+                    </ul>
+                </div>-->
+                <div class="col-lg-12">
+                	<div class="col-lg-1"></div>
+                	<div class="col-lg-3">
+                		    <img  class="img-circle img-responsive" src="img/DSC_0514.JPG" alt="No puede encontrarse la imagen">
+                	</div>
+                	<div class="col-lg-8">
+                                <div class="timeline-body">
+                                    <p class="text-muted">Hola! Mi nombre es Maria Nayra Rodríguez Pérez. En esta página podemos acceder mis asignaturas en este curso y a los proyectos que he realizado.</p>
+                                </div>  
+                                <br>
+                                <div class="timeline-heading">
+                                    <h4 class="subheading">Contacta conmigo a través de:</h4>
+                                </div>    
+								<div class="timeline-body">
+                                <p class="text-muted">alu0100406122@ull.edu.es</p>   
+								</div>
+                	</div>
+               	</div>
+            </div>
                         <!--li class="timeline-inverted">
                             <div class="timeline-image">
                                 <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
@@ -322,12 +473,12 @@
                                     <br>Story!</h4>
                             </div>
                         </li-->
-                    </ul>
-                </div>
-            </div>
+                    <!--/ul-->
+                <!--/div>
+            </div-->
         </div>
     </section>
-
+	
     <!-- Team Section -->
     <!--section id="team" class="bg-light-gray">
         <div class="container">
@@ -474,11 +625,11 @@
          		<div class="col-md-4"></div>
                 <div class="col-md-4 pull-right">
                     <ul class="list-inline social-buttons">
-                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                        <li><a href="http://www.twitter.com" target="blank"><i class="fa fa-twitter"></i></a>
                         </li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                        <li><a href="http://www.facebook.com" target="blank"><i class="fa fa-facebook"></i></a>
                         </li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                        <li><a href="https://es.linkedin.com/" target="blank"><i class="fa fa-linkedin"></i></a>
                         </li>
                     </ul>
                 </div>
