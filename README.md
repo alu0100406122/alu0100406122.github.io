@@ -1,24 +1,19 @@
-**Tareas Iniciales**
+**Página web personal**
 
-*Instalación de las herramientas:*
+Mi nombre es María Nayra Rodríguez Pérez, alumna del grado de Ingeniería Informática. 
 
-    - nodeJS
-    
-    - atom
-    
-    - express
-    
-    - Git
-    
-    - pandoc
-    
-    
+Este proyecto es una página web para mostrar las prácticas de las distintas asignaturas cursadas durante el curso 2015/2016.
 
 
-*Enlaces:*
 
-WEB:     http://alu0100406122.github.io/
+*Enlace al repositoio:*
 
-REPOSITORIO:     http://alu0100406122.github.io/
+    http://alu0100406122.github.io/
+
+*Enlace a la web:*
+
+    http://alu0100406122.github.io/
+
+
     
 
