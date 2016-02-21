@@ -8,11 +8,11 @@ Este proyecto es una página web para mostrar las prácticas de las distintas as
 
 *Enlace al repositoio:*
 
-    http://alu0100406122.github.io/
+     *[Links](http://alu0100406122.github.io/)
 
 *Enlace a la web:*
 
-    http://alu0100406122.github.io/
+     * [Links](http://alu0100406122.github.io/)
 
 
     
