@@ -34,7 +34,8 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function()
 {
@@ -54,8 +55,15 @@ $(document).ready(function()
     	$("#practica1").css("display","none");
     	$("#mensaje_aviso").fadeIn();
  		$("#mensaje_aviso").html("No se han realizado prácticas");
-
-
+    });
+    $("#dsi").click(function()
+    {
+    	$("#practicas").show();
+    	$("#asignatura_seleccionada").html("Desarrollo de sistemas informáticos");
+    	location.href="#practicas";
+    	$("#practica1").css("display","none");
+    	$("#mensaje_aviso").fadeIn();
+ 		$("#mensaje_aviso").html("No se han realizado prácticas");
     });
     $("#tio").click(function()
     {
@@ -132,7 +140,7 @@ $(document).ready(function()
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Universidad de La Laguna</a>
+                <a class="navbar-brand page-scroll" href="#page-top">María Nayra Rodríguez Pérez</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -167,9 +175,9 @@ $(document).ready(function()
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">Bienvenido a mi espacio</div>
+                <div class="intro-lead-in">Bienvenido a mi espacio de prácticas</div>
                 <br>
-                <a style="margin-top:35px;" href="#services" class="page-scroll btn btn-xl">¡Empezar!</a>
+                <a style="margin-top:35px;" href="#services" class="page-scroll btn btn-xl">Saber más</a>
             </div>
         </div>
     </header>
@@ -197,8 +205,8 @@ $(document).ready(function()
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 id="tio" class="service-heading">Tecnologías de la información para las organizaciones</h4>
-                    <p class="text-muted"><!--Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.--></p>
+                    <h4 id="dsi" class="service-heading">Desarrollo de Sistemas Informáticos</h4>
+                    <p class="text-muted">
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -208,6 +216,7 @@ $(document).ready(function()
                     <h4 id="gco" class="service-heading">Gestión del conocimiento en las organizaciones</h4>
                     <p class="text-muted"></p>
                 </div>
+            </div>        
                 <div class="row text-center">
                 	<div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -218,7 +227,12 @@ $(document).ready(function()
                     <p class="text-muted"></p>
                 	</div>
                 	<div class="col-md-4">
-            
+                        <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 id="tio" class="service-heading">Tecnologías de la información para las organizaciones</h4>
+                        <p class="text-muted">
                 	</div>
                 	<div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -229,7 +243,7 @@ $(document).ready(function()
                     <p class="text-muted"></p>
                 	</div>	
             	</div>
-        </div>
+        
     </section>
 
 <!--Prácticas-->
