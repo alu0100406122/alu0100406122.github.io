@@ -12,7 +12,7 @@
             "id" : 2,
             "titulo": "Conversor de Temperatura",
             "imagen": "img/termometro.png",
-            "url": "https://github.com/ULL-ESIT-GRADOII-DSI/introduccion-josue-nayra-dsi15-16",
+            "url": "https://github.com/ULL-ESIT-GRADOII-DSI/introduccion-josue-nayra-dsi15-16/tree/gh-pages",
             "url_paginaweb": "http://ull-esit-gradoii-dsi.github.io/introduccion-josue-nayra-dsi15-16/"
         }
     ]
