@@ -35,6 +35,20 @@
             "imagen": "img/mocha.png",
             "url": "https://github.com/ULL-ESIT-GRADOII-DSI/mocha-y-chai-josue-nayra-dsi15-16-1",
             "url_paginaweb": "http://ull-esit-gradoii-dsi.github.io/mocha-y-chai-josue-nayra-dsi15-16-1/vendor/index.html"
+        },
+        {
+            "id" : 6,
+            "titulo": "Conversor de Temperatura. Karma y Travis.",
+            "imagen": "img/Karma.jpg",
+            "url": "https://github.com/ULL-ESIT-GRADOII-DSI/karma-y-travis-josue-nayra-dsi15-16-1",
+            "url_paginaweb": "http://ull-esit-gradoii-dsi.github.io/mocha-y-chai-josue-nayra-dsi15-16-1/vendor/index.html"
+        },
+        {
+            "id" : 7,
+            "titulo": "Comma Separated Values. Heroku, Sass, Express, Underscore...",
+            "imagen": "img/Comma.jpg",
+            "url": "https://github.com/ULL-ESIT-GRADOII-DSI/localstorage-jquery-underscore-express-sass-heroku-josue-nayra-dsi15-16-1",
+            "url_paginaweb": "http://ull-esit-gradoii-dsi.github.io/localstorage-jquery-underscore-express-sass-heroku-josue-nayra-dsi15-16-1/"
         }
     ]
 }
