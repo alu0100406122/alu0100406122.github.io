@@ -49,6 +49,13 @@
             "imagen": "img/Comma.jpg",
             "url": "https://github.com/ULL-ESIT-GRADOII-DSI/localstorage-jquery-underscore-express-sass-heroku-josue-nayra-dsi15-16-1",
             "url_paginaweb": "http://ull-esit-gradoii-dsi.github.io/localstorage-jquery-underscore-express-sass-heroku-josue-nayra-dsi15-16-1/"
+        },
+        {
+            "id" : 8,
+            "titulo": "Comma Separated Values. AJAX, ECMA6, ficheros, Node.js modules...",
+            "imagen": "img/logoa.jpg",
+            "url": "https://github.com/ULL-ESIT-GRADOII-DSI/ajax-ecma6-ficheros-josue-nayra-dsi15-16-1",
+            "url_paginaweb": "http://practica8-josue-nayra.herokuapp.com/"
         }
     ]
 }
