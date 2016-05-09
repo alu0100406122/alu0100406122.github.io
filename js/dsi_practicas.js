@@ -63,6 +63,13 @@
             "imagen": "img/mongodb.png",
             "url": "https://github.com/ULL-ESIT-GRADOII-DSI/mongodb-mongoose-csv-josue-nayra-dsi15-16-1",
             "url_paginaweb": "https://practica9-dsi1516-josuetc94.c9users.io/"
+        },
+        {
+            "id" : 10,
+            "titulo": "MongoDB y Populations",
+            "imagen": "img/mongodb.png",
+            "url": "https://github.com/ULL-ESIT-GRADOII-DSI/mongoose-y-populations-josue-nayra-dsi15-16-1",
+            "url_paginaweb": "https://ide.c9.io/josuetc94/practica10dsi_mongoose_populations"
         }
         
     ]
