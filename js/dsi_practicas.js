@@ -70,6 +70,13 @@
             "imagen": "img/mongodb.png",
             "url": "https://github.com/ULL-ESIT-GRADOII-DSI/mongoose-y-populations-josue-nayra-dsi15-16-1",
             "url_paginaweb": "https://ide.c9.io/josuetc94/practica10dsi_mongoose_populations"
+        },
+        {
+            "id" : 11,
+            "titulo": "Proyecto 'La Palma Trail'",
+            "imagen": "img/portada.png",
+            "url": "https://github.com/ULL-ESIT-GRADOII-DSI/proyecto-final-de-dsi-josue-nayra-dsi15-16-1",
+            "url_paginaweb": "https://proyecto-final-dsi-josue-nayra-alu0100406122.c9users.io/?_c9_id=livepreview0&_c9_host=https://ide.c9.io"
         }
         
     ]
